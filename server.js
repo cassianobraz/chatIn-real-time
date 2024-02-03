@@ -14,4 +14,5 @@ io.addListener("connection", (socket) => {
   });
 });
 
-servidorHTTP.listen(4040);
+servidorHTTP.listen(4040, /*"IPV4"*/);
+// * para acessar é o ip:4040 que é a porta
